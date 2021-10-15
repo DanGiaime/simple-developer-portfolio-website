@@ -28,7 +28,7 @@ module.exports = {
         },
         {
             source: '/youtube',
-            destination: 'https://twitter.com/roxkstar74',
+            destination: 'https://youtube.com/roxkstar74',
             permanent: true,
         },
         {
