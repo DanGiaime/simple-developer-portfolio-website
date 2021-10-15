@@ -1,9 +1,31 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { RoughNotation, RoughNotationGroup } from "react-rough-notation";
 import { RainbowHighlight } from "./RainbowHighlight";
 import userData from "@constants/data";
+// import ReactTwitchEmbedVideo from ""
+
+import dynamic from "next/dynamic";
+const ReactTwitchEmbedVideo = dynamic(() => import("react-twitch-embed-video"), {
+  ssr: false,
+});
+
+// see if response from https://twitchlive.nyx.xyz/roxkstar74 is true
+const checkIsLive = async () => {
+    let output = await fetch("https://twitchlive.nyx.xyz/roxkstar74")
+      .then((response) => response.text());
+    console.log(typeof output);
+    return output
+}
 
 export default function Hero() {
+  const [isLive, setIsLive] = React.useState(false);
+  useEffect(() => {
+    checkIsLive().then((res) => {
+      setIsLive(res === "true");
+    });
+  }, []);
+
+
   const colors = ["#F59E0B", "#84CC16", "#10B981", "#3B82F6"];
   return (
     <div className="flex flex-row justify-center items-start overflow-hidden">
@@ -13,12 +35,12 @@ export default function Hero() {
         <RoughNotationGroup show={true}>
           <RainbowHighlight color={colors[0]}>
             <h1 className="text-4xl md:text-8xl font-bold text-gray-700 dark:text-gray-200 my-2">
-              Developer.
+              Very Attractive.
             </h1>
           </RainbowHighlight>
           <RainbowHighlight color={colors[1]}>
             <h1 className="text-4xl md:text-8xl font-bold text-gray-700 dark:text-gray-200 my-2">
-              Designer.
+              Big Brain.
             </h1>
           </RainbowHighlight>
           <RainbowHighlight color={colors[2]}>
@@ -28,35 +50,28 @@ export default function Hero() {
           </RainbowHighlight>
           <RainbowHighlight color={colors[3]}>
             <h1 className="text-4xl md:text-8xl font-bold text-gray-700 dark:text-gray-200 my-2">
-              Youtuber.
+              Streamer.
             </h1>
           </RainbowHighlight>
         </RoughNotationGroup>
       </div>
       {/* Image container */}
       <div className="hidden lg:block relative w-full md:w-1/2 -mr-40 mt-20">
-        <div className="w-3/4 ">
-          <img src={userData.avatarUrl} alt="avatar" className=" shadow" />
-          <div className="flex flex-row justify-between mt-4">
+        <div className="w-3/4">
+          {
+          isLive
+          ? <ReactTwitchEmbedVideo height='405px' width='720px' muted layout="video" channel="roxkstar74" />
+          : <img src={userData.avatarUrl} alt="avatar" className=" shadow" />
+          }
+          {/* <div className="flex flex-row justify-between mt-4">
             <div className="flex flex-row space-x-4">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="16"
-                height="16"
-                fill="currentColor"
-                className="bi bi-arrow-90deg-up"
-                viewBox="0 0 16 16"
-              >
-                <path
-                  fillRule="evenodd"
-                  d="M4.854 1.146a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L4 2.707V12.5A2.5 2.5 0 0 0 6.5 15h8a.5.5 0 0 0 0-1h-8A1.5 1.5 0 0 1 5 12.5V2.707l3.146 3.147a.5.5 0 1 0 .708-.708l-4-4z"
-                />
-              </svg>
               <p className="font-mono">That's me</p>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
+
+      {/* twitch */}
     </div>
   );
 }
