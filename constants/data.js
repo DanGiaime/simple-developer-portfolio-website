@@ -1,12 +1,17 @@
 const userData = {
-  githubUsername: "DanGiaime",
-  name: "Dan Giaime",
+  githubUsername: "Roxkstar74",
+  name: "Roxkstar74",
   designation: "Cool And Attractive Tech Guy",
-  avatarUrl: "https://github.com/Dangiaime.png",
+  avatarUrl: "https://github.com/roxkstar74.png",
   email: "hitmeup@rox.works",
   phone: "Not a chance",
   address: "Koh Samui, Thailand",
   projects: [
+    {
+      title: "NFTLists.me",
+      link: "https://NFTLists.me",
+      imgUrl: "https://nftlists.me/logos/social-image.png",
+    },
     {
       title: "Clipbot.tv",
       link: "https://clipbot.tv",
@@ -15,19 +20,19 @@ const userData = {
     {
       title: "Delight Rewards",
       link: "https://delightrewards.com",
-      imgUrl: "https://delightrewards.com/images/logos/logo.png",
+      imgUrl: "https://delightrewards.com/images/logos/og-image.png",
     }
   ],
   about: {
     title:
-      "I'm just some kid trying to be special",
+      "Just a kid trying to be special",
     description: [
       `I used to work at Facebook and Microsoft as an intern and then realized "wow this is actually not pog" so I moved on to startups.`,
       `After 3 years at my first startup I realized I was BIG sad, so I became a digital nomad and moved to Thailand to work on my own startups.`,
       `In August 2020 I accidentally became a Twitch streamer, and now I livestream all my startup code/marketing/work all day every day.`,
     ],
-    currentProject: "Clipbot.tv",
-    currentProjectUrl: "https://clipbot.tv",
+    currentProject: "NFTLists.me",
+    currentProjectUrl: "https://NFTLists.me",
   },
   experience: [
     {
@@ -99,8 +104,8 @@ const userData = {
   socialLinks: {
     instagram: "https://instagram.com/roxkstar74",
     twitter: "https://twitter.com/roxkstar74",
-    linkedin: "https://linkedin.com/in/dangiaime",
-    github: "https://github.com/dangiaime",
+    linkedin: "https://linkedin.com/in/roxkstar74",
+    github: "https://github.com/roxkstar74",
     twitch: "https://twitch.tv/roxkstar74",
   },
 };

@@ -140,6 +140,16 @@ export default function Navbar() {
         </div>
 
         <div className="space-x-4 flex flex-row items-center">
+            <a
+              href={userData.socialLinks.twitch}
+              className="h-4.5 w-4.5 rounded-full hover:bg-blue-500 flex items-center justify-center cursor-pointer"
+            >
+              <svg width="18" height="18" viewBox="0 0 256 268" version="1.1" preserveAspectRatio="xMidYMid">
+                <g>
+                    <path fill="#FFFFFF" d="M17.4579119,0 L0,46.5559188 L0,232.757287 L63.9826001,232.757287 L63.9826001,267.690956 L98.9144853,267.690956 L133.811571,232.757287 L186.171922,232.757287 L256,162.954193 L256,0 L17.4579119,0 Z M40.7166868,23.2632364 L232.73141,23.2632364 L232.73141,151.29179 L191.992415,192.033461 L128,192.033461 L93.11273,226.918947 L93.11273,192.033461 L40.7166868,192.033461 L40.7166868,23.2632364 Z M104.724985,139.668381 L127.999822,139.668381 L127.999822,69.843872 L104.724985,69.843872 L104.724985,139.668381 Z M168.721862,139.668381 L191.992237,139.668381 L191.992237,69.843872 L168.721862,69.843872 L168.721862,139.668381 Z"/>
+                </g>
+              </svg>
+            </a>
           <a
             href={userData.socialLinks.instagram}
             className="text-base font-normal text-gray-600 dark:text-gray-300"
