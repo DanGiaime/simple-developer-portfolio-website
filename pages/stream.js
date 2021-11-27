@@ -14,7 +14,7 @@ export default function Stream() {
             <meta http-equiv="Refresh" content="0; url='https://twitch.tv/roxkstar74'" />
         </head>
         <body>
-            spaghetti
+            Loading up greatness...
         </body>
     </>)
 }
