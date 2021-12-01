@@ -15,6 +15,11 @@ module.exports = withTM({
           permanent: true,
         },
         {
+          source: '/tiktok',
+          destination: 'https://tiktok.com/@roxkstar74',
+          permanent: true,
+        },
+        {
             source: '/twitter',
             destination: 'https://twitter.com/roxkstar74',
             permanent: true,
