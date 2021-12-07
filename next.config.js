@@ -14,6 +14,12 @@ module.exports = withTM({
           destination: 'https://github.com/roxkstar74',
           permanent: true,
         },
+        
+        {
+          source: '/goals',
+          destination: 'https://www.youtube.com/watch?v=oaIWDUsxx6Y',
+          permanent: true,
+        },
         {
           source: '/tiktok',
           destination: 'https://tiktok.com/@roxkstar74',
