@@ -16,6 +16,11 @@ module.exports = withTM({
         },
         
         {
+          source: '/merch',
+          destination: 'https://merch.streamelements.com/roxkstar74',
+          permanent: true,
+        },
+        {
           source: '/goals',
           destination: 'https://www.youtube.com/watch?v=oaIWDUsxx6Y',
           permanent: true,
