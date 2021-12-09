@@ -14,10 +14,19 @@ module.exports = withTM({
           destination: 'https://github.com/roxkstar74',
           permanent: true,
         },
-        
         {
           source: '/merch',
           destination: 'https://merch.streamelements.com/roxkstar74',
+          permanent: true,
+        },
+        {
+          source: '/ideas',
+          destination: 'https://vintage-smile-604.notion.site/Goal-Actually-making-20k-in-December-249dee93d7974e5389f8f3e25e70802c',
+          permanent: true,
+        },
+        {
+          source: '/today',
+          destination: 'https://trello.com/b/oMD8XORk/daily',
           permanent: true,
         },
         {
