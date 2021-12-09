@@ -30,6 +30,11 @@ module.exports = withTM({
           permanent: true,
         },
         {
+          source: '/daily',
+          destination: 'https://trello.com/b/oMD8XORk/daily',
+          permanent: true,
+        },
+        {
           source: '/goals',
           destination: 'https://www.youtube.com/watch?v=oaIWDUsxx6Y',
           permanent: true,
