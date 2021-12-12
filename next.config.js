@@ -30,6 +30,11 @@ module.exports = withTM({
           permanent: true,
         },
         {
+          source: '/status',
+          destination: 'https://trello.com/b/wDGlphGP/project-status',
+          permanent: true,
+        },
+        {
           source: '/daily',
           destination: 'https://trello.com/b/oMD8XORk/daily',
           permanent: true,
