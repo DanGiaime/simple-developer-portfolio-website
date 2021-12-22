@@ -35,6 +35,16 @@ module.exports = withTM({
           permanent: true,
         },
         {
+          source: '/extension',
+          destination: 'https://chrome.google.com/webstore/detail/rox-mandatory-friendship/ikcfiihgdijejljabhocppgnpkjcmdic',
+          permanent: true,
+        },
+        {
+          source: '/umso',
+          destination: 'https://www.umso.com/?via=rox',
+          permanent: true,
+        },
+        {
           source: '/daily',
           destination: 'https://trello.com/b/oMD8XORk/daily',
           permanent: true,
