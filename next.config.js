@@ -10,6 +10,11 @@ module.exports = withTM({
             permanent: true,
         },
         {
+            source: '/discord',
+            destination: 'https://discord.gg/jctwcBa',
+            permanent: true,
+        },
+        {
           source: '/github',
           destination: 'https://github.com/roxkstar74',
           permanent: true,
