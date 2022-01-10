@@ -98,6 +98,11 @@ module.exports = withTM({
             source: '/leaving',
             destination: 'https://youtu.be/xP3m27Pl5eU',
             permanent: true,
+        },
+        {
+            source: '/strawberry',
+            destination: 'https://www.reddit.com/r/ProgrammerHumor/comments/q0ejpv/strawberry_js_best_js/',
+            permanent: true,
         }
       ]
     },
