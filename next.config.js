@@ -103,7 +103,12 @@ module.exports = withTM({
             source: '/strawberry',
             destination: 'https://www.reddit.com/r/ProgrammerHumor/comments/q0ejpv/strawberry_js_best_js/',
             permanent: true,
-        }
+        },
+        {
+          source: '/clickup',
+          destination: 'https://clickup.com?fp_ref=rox39',
+          permanent: true,
+        },
       ]
     },
   })
