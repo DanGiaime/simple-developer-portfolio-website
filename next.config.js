@@ -31,7 +31,7 @@ module.exports = withTM({
         },
         {
           source: '/today',
-          destination: 'https://trello.com/b/oMD8XORk/daily',
+          destination: 'https://sharing.clickup.com/b/h/6-170900334-2/e7dcf84a22263ae',
           permanent: true,
         },
         {
@@ -51,7 +51,7 @@ module.exports = withTM({
         },
         {
           source: '/daily',
-          destination: 'https://trello.com/b/oMD8XORk/daily',
+          destination: 'https://sharing.clickup.com/b/h/6-170900334-2/e7dcf84a22263ae',
           permanent: true,
         },
         {
@@ -108,7 +108,7 @@ module.exports = withTM({
           source: '/clickup',
           destination: 'https://clickup.com?fp_ref=rox39',
           permanent: true,
-        },
+        }
       ]
     },
   })
