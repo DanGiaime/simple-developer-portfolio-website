@@ -108,6 +108,11 @@ module.exports = withTM({
           source: '/clickup',
           destination: 'https://clickup.com?fp_ref=rox39',
           permanent: true,
+        },
+        {
+          source: '/clipbot-clickup',
+          destination: 'https://sharing.clickup.com/b/h/6-122357101-2/3ffdfd2ce933268',
+          permanent: true,
         }
       ]
     },
