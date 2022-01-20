@@ -113,6 +113,11 @@ module.exports = withTM({
           source: '/clipbot-clickup',
           destination: 'https://sharing.clickup.com/b/h/6-122357101-2/3ffdfd2ce933268',
           permanent: true,
+        },
+        {
+          source: '/start-live-coding',
+          destination: 'https://www.youtube.com/watch?v=-G3bpS5zJ6g',
+          permanent: true,
         }
       ]
     },
