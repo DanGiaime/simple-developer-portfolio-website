@@ -5,14 +5,14 @@ module.exports = withTM({
     async redirects() {
       return [
         {
-            source: '/twitch',
-            destination: 'https://twitch.tv/roxkstar74',
-            permanent: true,
+          source: '/twitch',
+          destination: 'https://twitch.tv/roxkstar74',
+          permanent: true,
         },
         {
-            source: '/discord',
-            destination: 'https://discord.gg/jctwcBa',
-            permanent: true,
+          source: '/discord',
+          destination: 'https://discord.gg/jctwcBa',
+          permanent: true,
         },
         {
           source: '/github',
@@ -65,44 +65,44 @@ module.exports = withTM({
           permanent: true,
         },
         {
-            source: '/twitter',
-            destination: 'https://twitter.com/roxkstar74',
-            permanent: true,
+          source: '/twitter',
+          destination: 'https://twitter.com/roxkstar74',
+          permanent: true,
         },
         {
-            source: '/instagram',
-            destination: 'https://instagram.com/roxkstar74',
-            permanent: true,
+          source: '/instagram',
+          destination: 'https://instagram.com/roxkstar74',
+          permanent: true,
         },
         {
-            source: '/ig',
-            destination: 'https://instagram.com/roxkstar74',
-            permanent: true,
+          source: '/ig',
+          destination: 'https://instagram.com/roxkstar74',
+          permanent: true,
         },
         {
-            source: '/youtube',
-            destination: 'https://youtube.com/roxkstar74',
-            permanent: true,
+          source: '/youtube',
+          destination: 'https://youtube.com/roxkstar74',
+          permanent: true,
         },
         {
-            source: '/yt',
-            destination: 'https://youtube.com/roxkstar74',
-            permanent: true,
+          source: '/yt',
+          destination: 'https://youtube.com/roxkstar74',
+          permanent: true,
         },
         {
-            source: '/future',
-            destination: 'https://www.youtube.com/watch?v=CIsrhoVSc4',
-            permanent: true,
+          source: '/future',
+          destination: 'https://www.youtube.com/watch?v=CIsrhoVSc4',
+          permanent: true,
         },
         {
-            source: '/leaving',
-            destination: 'https://youtu.be/xP3m27Pl5eU',
-            permanent: true,
+          source: '/leaving',
+          destination: 'https://youtu.be/xP3m27Pl5eU',
+          permanent: true,
         },
         {
-            source: '/strawberry',
-            destination: 'https://www.reddit.com/r/ProgrammerHumor/comments/q0ejpv/strawberry_js_best_js/',
-            permanent: true,
+          source: '/strawberry',
+          destination: 'https://www.reddit.com/r/ProgrammerHumor/comments/q0ejpv/strawberry_js_best_js/',
+          permanent: true,
         },
         {
           source: '/clickup',
@@ -118,7 +118,12 @@ module.exports = withTM({
           source: '/start-live-coding',
           destination: 'https://www.youtube.com/watch?v=-G3bpS5zJ6g',
           permanent: true,
-        }
+        },
+        {
+          source: '/playlists',
+          destination: 'https://open.spotify.com/user/22hq7oyd3taofvqk26w4socna/playlists',
+          permanent: true,
+        },
       ]
     },
   })
