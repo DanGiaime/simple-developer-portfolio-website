@@ -124,6 +124,11 @@ module.exports = withTM({
           destination: 'https://open.spotify.com/user/22hq7oyd3taofvqk26w4socna/playlists',
           permanent: true,
         },
+        {
+          source: '/betterso',
+          destination: 'https://www.reddit.com/r/Twitch/comments/pwegd8/better_so_for_nightbot/',
+          permanent: true,
+        },
       ]
     },
   })
