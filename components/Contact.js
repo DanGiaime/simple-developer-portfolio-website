@@ -17,7 +17,7 @@ export default function Contact() {
                 Get in touch, let's talk.
               </h1>
               <p className="font-light text-base text-gray-200 mt-2">
-                Fill in the details and I'll get back to you as soon as I can.
+                If you're actually reading this page, this form does nothing. Just DM me on twitter or discord or email me directly.
               </p>
             </header>
             <div className="icons-container inline-flex flex-col my-20">
