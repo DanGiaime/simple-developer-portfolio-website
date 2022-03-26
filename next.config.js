@@ -129,6 +129,11 @@ module.exports = withTM({
           destination: 'https://www.reddit.com/r/Twitch/comments/pwegd8/better_so_for_nightbot/',
           permanent: true,
         },
+        {
+          source: '/chat',
+          destination: 'https://usemotion.com/meet/rox/chat',
+          permanent: true,
+        },
       ]
     },
   })
