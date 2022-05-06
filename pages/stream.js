@@ -8,9 +8,9 @@ export default function Stream() {
             <meta name='twitter:player:height' content='720' />
             <meta name='twitter:player:stream' content='true' />
             <meta name='twitter:player:stream:type' content='live' />
-            <meta name='twitter:description' content="Building my startup TwitchToTikTok live from Thailand! Come hang :D" />
+            <meta name='twitter:description' content="Building startups live from Portugal! Come hang :D" />
             <meta name='twitter:image' content='https://github.com/roxkstar74.png' />
-            <meta name='twitter:title' content='Cowork with me live!' />
+            <meta name='twitter:title' content='Building startups live!' />
             <meta http-equiv="Refresh" content="0; url='https://twitch.tv/roxkstar74'" />
         </head>
         <body>
