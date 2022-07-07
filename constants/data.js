@@ -5,17 +5,32 @@ const userData = {
   avatarUrl: "https://github.com/roxkstar74.png",
   email: "hitmeup@rox.works",
   phone: "Not a chance",
-  address: "Koh Samui, Thailand",
+  address: "I move too much",
   projects: [
     {
-      title: "NFTLists.me",
-      link: "https://NFTLists.me",
-      imgUrl: "https://nftlists.me/logos/social-image.png",
+      title: "ThumbnailTest.com",
+      link: "https://ThumbnailTest.com",
+      imgUrl: "/ThumbnailTest_Logo.svg",
+    },
+    {
+      title: "EasyUpload",
+      link: "https://EasyUpload.dev",
+      imgUrl: "/easyupload_logo.svg",
+    },
+    {
+      title: "ClipThat.live",
+      link: "https://clipthat.live",
+      imgUrl: "/clipthat-logo.png",
     },
     {
       title: "Clipbot.tv",
       link: "https://clipbot.tv",
       imgUrl: "/clipbot-dark-social.png",
+    },
+    {
+      title: "NFTLists.me",
+      link: "https://NFTLists.me",
+      imgUrl: "https://nftlists.me/logos/social-image.png",
     },
     {
       title: "Delight Rewards",
@@ -31,8 +46,8 @@ const userData = {
       `After 3 years at my first startup I realized I was BIG sad, so I became a digital nomad and moved to Thailand to work on my own startups.`,
       `In August 2020 I accidentally became a Twitch streamer, and now I livestream all my startup code/marketing/work all day every day.`,
     ],
-    currentProject: "NFTLists.me",
-    currentProjectUrl: "https://NFTLists.me",
+    currentProject: "ThumbnailTest.com",
+    currentProjectUrl: "https://ThumbnailTest.com",
   },
   experience: [
     {
