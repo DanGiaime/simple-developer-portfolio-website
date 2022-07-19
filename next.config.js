@@ -139,6 +139,11 @@ module.exports = withTM({
         destination: 'https://bit.ly/3O5LBPO',
         permanent: true,
       },
+      {
+        source: '/fusion',
+        destination: 'https://fusionauth.io/download?utm_source=Twitch&utm_medium=roxkstar74&utm_campaign=Streaming+Campaign&utm_content=Manual+Conversion',
+        permanent: true,
+      },
     ]
   },
 })
