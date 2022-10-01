@@ -144,6 +144,16 @@ module.exports = withTM({
         destination: 'https://fusionauth.io/download?utm_source=Twitch&utm_medium=roxkstar74&utm_campaign=Streaming+Campaign&utm_content=Manual+Conversion',
         permanent: true,
       },
+      {
+        source: '/linkedin',
+        destination: 'https://www.linkedin.com/in/roxkstar74',
+        permanent: true,
+      },
+      {
+        source: '/savebaby',
+        destination: 'https://us05web.zoom.us/j/83382181017?pwd=akJFOFBwK1RrTmdTeWF3eGlsZnJCUT09',
+        permanent: true,
+      },
     ]
   },
 })
