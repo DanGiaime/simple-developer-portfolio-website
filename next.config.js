@@ -154,6 +154,11 @@ module.exports = withTM({
         destination: 'https://us05web.zoom.us/j/83382181017?pwd=akJFOFBwK1RrTmdTeWF3eGlsZnJCUT09',
         permanent: true,
       },
+      {
+        source: '/jenni',
+        destination: 'https://jenni.ai/?utm_source=rox',
+        permanent: true,
+      }
     ]
   },
 })
