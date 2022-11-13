@@ -6,7 +6,7 @@ module.exports = withTM({
     return [
       {
         source: '/twitch',
-        destination: 'https://twitch.tv/roxkstar74',
+        destination: 'https://twitch.tv/roxcodes',
         permanent: true,
       },
       {
@@ -16,7 +16,7 @@ module.exports = withTM({
       },
       {
         source: '/github',
-        destination: 'https://github.com/roxkstar74',
+        destination: 'https://github.com/roxworks',
         permanent: true,
       },
       {
@@ -61,22 +61,22 @@ module.exports = withTM({
       },
       {
         source: '/tiktok',
-        destination: 'https://tiktok.com/@roxkstar74',
+        destination: 'https://tiktok.com/@roxcodes',
         permanent: true,
       },
       {
         source: '/twitter',
-        destination: 'https://twitter.com/roxkstar74',
+        destination: 'https://twitter.com/roxcodes',
         permanent: true,
       },
       {
         source: '/instagram',
-        destination: 'https://instagram.com/roxkstar74',
+        destination: 'https://instagram.com/roxcodes',
         permanent: true,
       },
       {
         source: '/ig',
-        destination: 'https://instagram.com/roxkstar74',
+        destination: 'https://instagram.com/roxcodes',
         permanent: true,
       },
       {
