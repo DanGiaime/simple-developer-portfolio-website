@@ -2,7 +2,7 @@ const userData = {
   githubUsername: "Roxkstar74",
   name: "Roxkstar74",
   designation: "Cool And Attractive Tech Guy",
-  avatarUrl: "https://github.com/roxkworks.png",
+  avatarUrl: "https://github.com/roxworks.png",
   email: "hitmeup@rox.works",
   phone: "Not a chance",
   address: "I move too much",
